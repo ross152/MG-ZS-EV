@@ -249,7 +249,7 @@
     {"id": "MG_TirePressure_FL", "path": "Tyres.Pressure", "fmt": {          "len": 8, "max": 300, "mul": 4, "unit": "kilopascal" }, "name": "Tire Pressure Front Left", "suggestedmetric": "frontLeftTirePressure"},
     {"id": "MG_TirePressure_FR", "path": "Tyres.Pressure", "fmt": {"bix": 8, "len": 8, "max": 300, "mul": 4, "unit": "kilopascal" }, "name": "Tire Pressure Front Right", "suggestedmetric": "frontRightTirePressure"},
     {"id": "MG_TirePressure_RR", "path": "Tyres.Pressure", "fmt": {"bix": 16, "len": 8, "max": 300, "mul": 4, "unit": "kilopascal" }, "name": "Tire Pressure Rear Right", "suggestedmetric": "rearRightTirePressure"},
-	{"id": "MG_TirePressure_RL", "path": "Tyres.Pressure", "fmt": {"bix": 24, "len": 8, "max": 300, "mul": 4, "unit": "kilopascal" }, "name": "Tire Pressure Rear Left", "suggestedmetric": "rearLeftTirePressure"},
+		{"id": "MG_TirePressure_RL", "path": "Tyres.Pressure", "fmt": {"bix": 24, "len": 8, "max": 300, "mul": 4, "unit": "kilopascal" }, "name": "Tire Pressure Rear Left", "suggestedmetric": "rearLeftTirePressure"},
 ],
 "signalGroups": [
   {"id": "MG4_HVBAT_CMU_MAXTEMP", "path": "Battery.Modules", "matchingRegex": "MG4_HVBAT_(CMU\\d+)_MAXTEMP", "name": "HV battery pack max temperature"},
