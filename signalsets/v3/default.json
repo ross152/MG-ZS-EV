@@ -37,7 +37,7 @@
   "signals": [
     {"id": "ZSEV_HBAT_C", "path": "Battery", "fmt": { "len": 16, "max": 638.375, "min": -1000, "div": 40, "add": -1000, "unit": "milliamps" }, "name": "High voltage battery current"}
   ]},
-{ "hdr": "7E5", "rax": "789", "dbg": true, "cmd": {"22": "B046"}, "freq": 1,
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B046"}, "freq": 1,
   "signals": [
     {"id": "ZSEV_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
   ]},
