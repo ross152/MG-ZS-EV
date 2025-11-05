@@ -39,11 +39,11 @@
   ]},
 { "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B046"}, "freq": 1,
   "signals": [
-    {"id": "ZSEV_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
+    {"id": "ZSEV_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "add": 6, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
   ]},
   { "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B0CE"}, "freq": 1,
   "signals": [
-    {"id": "ZSEV_Range", "path": "Battery", "fmt": { "len": 16, "max": 300, "div": 10, "unit": "KM" }, "name": "Estimated Range", "suggestedMetric": "electricRange"}
+    {"id": "ZSEV_Range", "path": "Battery", "fmt": { "len": 16, "max": 500, "div": 10, "unit": "KM" }, "name": "Estimated Range", "suggestedMetric": "electricRange"}
   ]},
 { "hdr": "781", "rax": "789", "dbg": true, "cmd": {"22": "B048"}, "freq": 1,
   "signals": [
