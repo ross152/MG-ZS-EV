@@ -47,7 +47,7 @@
   ]},
 { "hdr": "781", "rax": "789", "dbg": true, "cmd": {"22": "B048"}, "freq": 1,
   "signals": [
-    {"id": "ZSEV_IS_CHARGING", "path": "Batteryp", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "yesno" }, "name": "Is charging",         "suggestedMetric": "isCharging"},
+    {"id": "ZSEV_IS_CHARGING", "path": "Battery", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "yesno" }, "name": "Is charging",         "suggestedMetric": "isCharging"},
     {"id": "ZSEV_IS_DCFC",     "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "yesno" }, "name": "Is DC fast charging"}
   ]},
 { "hdr": "781", "rax": "789", "dbg": true, "cmd": {"22": "B056"}, "freq": 60, "filter": { "to": 2021 },
