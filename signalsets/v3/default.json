@@ -43,7 +43,7 @@
   ]},
   { "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "B0CE"}, "freq": 1,
   "signals": [
-    {"id": "ZSEV_Range", "path": "Battery", "fmt": { "len": 16, "max": 448, "div": 10, "unit": "KM" }, "name": "Estimated Range", "suggestedMetric": "electricRange"}
+    {"id": "ZSEV_Range", "path": "Battery", "fmt": { "len": 16, "max": 462, "div": 10, "unit": "KM" }, "name": "Estimated Range", "suggestedMetric": "electricRange"}
   ]},
 { "hdr": "781", "rax": "789", "dbg": true, "cmd": {"22": "B048"}, "freq": 1,
   "signals": [
